@@ -7,23 +7,26 @@
     <title>Document</title>
     <script>
         var counter = 0;
-        var startnumber=0;
+        var Startnumber = 0;
         function onClickAdd() {
-            debugger;
-            if(counter===0)
-            {
-            counter=counter+1;
-            startnumber=startnumber +1;
-            document.getElementById("result").innerHTML="Result:"+startnumber+"nandini:"+counter; 
-            } 
+            debugger
+            if (counter == 0) {
+                Startnumber = parseInt(document.getElementById("txtstartnumber").value);
+
+            }
+            counter = counter + 1;
+            Startnumber = Startnumber + 1;
+            document.getElementById("result").innerHTML = "Result:" + Startnumber + "nandini:" + counter;
+
         }
-        function onChangeAdd(){
-        debugger;
-        counter=0;
-     
+        function onChangeAdd() {
+            debugger;
+            counter = 0;
+
         } 
-   </script>
+    </script>
 </head>
+
 <body>
     <h1>Data types in java script</h1>
     <p> javascript provides different types of data to hold different types of values.</p>
