@@ -1,1 +1,2 @@
-# javascriptBasics
+# javascriptsBasics
+started a javascript basic
