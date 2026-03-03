@@ -2,50 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script>
-        var counter = 0;
-        var Startnumber = 0;
-        function onClickAdd() {
-            debugger
-            if (counter == 0) {
-                Startnumber = parseInt(document.getElementById("txtstartnumber").value);
+        var counter=0;
+        var Startnumber=0;
+        function onclickAdd(){
+            debugger;
+        if (counter == 0) {
+         Startnumber = parseInt(document.getElementById("txtstartnumber").value);
 
-            }
-            counter = counter + 1;
+        }
+             counter = counter + 1;
             Startnumber = Startnumber + 1;
             document.getElementById("result").innerHTML = "Result:" + Startnumber + "nandini:" + counter;
 
         }
-        function onChangeAdd() {
+            function onChangeAdd() {
             debugger;
-
-        } 
-        
+            }
     </script>
 </head>
+
 <body>
     <h1>Data types in java script</h1>
-    <p> javascript provides different types of data to hold different types of values.</p>
-    <ul>
+    <P>Javascript provides different types of data to hold different kinds of values.</P>
+</body></ul>
+    <ul class="datatypes">
         <li>String</li>
         <li>Number</li>
         <li>Boolean</li>
-        <li>object</li>
-        <li>Array</li>
         <li>Null</li>
         <li>Undefined</li>
-    </ul>
+        <li>Object</li>
+    </ul>  
+    <label>
+        Enter a Value:
+    </label>
+    <input type="text" id="txtstartnumber" placeholder="Enter a number" onchange="onchangeAdd()">
+    <button onclick="onclickAdd()">Add</button>
+    <p id="result"></p>
     <label>
         Enter a value:
     </label>
-    <input type="number" id="txtstartnumber" placeholder="Enter a number" onchange="onChangeAdd()">
-    <button id="btnAdd " onclick="onClickAdd()">Add </button>
-    <p id="result"></p>
-    <label>
-       Enter a value:
-    </label>
-    <input type="number" id="txtstartnumber" placeholder="Enter a number" onchange="onChangeMultiply()">
+   <input type ="text" id="txtstartnumber" placeholder="Enter a number" onchange="onChangeMultiply()">
     <button id="btnmultiply" onclick="onClickMultiply()">multiply</button>
+    <p id="result"></p>
 </body>
+</html>
