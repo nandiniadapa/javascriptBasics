@@ -6,3 +6,4 @@ created a multiply data type
 updated data types...
 updated indexbasic html 
 updated data types
+created profit loss
