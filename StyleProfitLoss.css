@@ -1,0 +1,20 @@
+ .cost-price{  
+    padding: 4px;
+    border: 1px solid black;
+    width: 249px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.cp-a{
+    margin-top: 7px;
+    width: 79px;
+    background: rgb(221, 176, 184);
+    height: 30px;
+}
+.p-l{
+    margin-top: 7px;
+    width: 79px;
+    background: rgb(221, 176, 184);
+    height: 30px;
+    
+}
