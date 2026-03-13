@@ -10,3 +10,4 @@ created profit loss
 created arthimetic operations
 created a temperature coverter
 created a profitlossindicator
+style applied for profit loss indicator
