@@ -11,13 +11,13 @@ totalBoxPrice= boxCostPrice+labourCost+transportCost+storageCost;
 
 perUnitCostPrice=totalBoxPrice/boxQuantity;
  if(perUnitSellingPrice-perUnitCostPrice>0){
-        document.getElementById("himaResult").innerHTML="profit";
+        document.getElementById("nanduResult").innerHTML="profit";
        }
        if(perUnitSellingPrice-perUnitCostPrice<0){
-        document.getElementById("himaResult").innerHTML="loss";
+        document.getElementById("nanduResult").innerHTML="loss";
 
        }
        if(perUnitSellingPrice-perUnitCostPrice==0){
- document.getElementById("himaResult").innerHTML="no profit no loss";
+ document.getElementById("nanduResult").innerHTML="no profit no loss";
        }
     }
