@@ -3,3 +3,4 @@ function onClickParseFloat(){
     var result = parseFloat(document.getElementById("txtValue").value);
     document.getElementById("pResult").innerHTML=result ;
 }
+   
