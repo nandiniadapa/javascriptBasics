@@ -1,6 +1,6 @@
 function onClickFixednumber(){
     debugger;
-     decimalvalue=Number(document.getElementById("txtDecimalnumber").value);
-     fixedvalue=Number(document.getElementById("txtFixnumber").value);
-     document.getElementById("pResult").innerHTML=DecimalNumber.toFixed(FixNumber)
+     decimalValue=Number(document.getElementById("txtDecimalnumber").value);
+     fixedValue=Number(document.getElementById("txtFixnumber").value);
+     document.getElementById("pResult").innerHTML=decimalValue.toFixed(fixedValue)
 }
