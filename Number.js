@@ -5,10 +5,10 @@ function onClickNumberfunction(){
 }
 
   document.getElementById("pDemo").innerHTML = 
-  Number.parseInt("-10") + "<br>" +
-  Number.parseInt("-10.33") + "<br>" +
-  Number.parseInt("10") + "<br>" +
-  Number.parseInt("10.33") + "<br>" +
-  Number.parseInt("10 6") + "<br>" +  
-  Number.parseInt("10 years") + "<br>" +  
-  Number.parseInt("years 10");  
+  Number.Number("-10") + "<br>" +
+  Number.Number("-10.33") + "<br>" +
+  Number.Number("10") + "<br>" +
+  Number.Number("10.33") + "<br>" +
+  Number.Number("10 6") + "<br>" +  
+  Number.Number("10 years") + "<br>" +  
+  Number.Number("years 10");  
