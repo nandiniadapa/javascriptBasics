@@ -12,3 +12,4 @@ created a temperature coverter
 created a profitlossindicator
 style applied for profit loss indicator
 style applied for profit loss
+created a precision linking with js
