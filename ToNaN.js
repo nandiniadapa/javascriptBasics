@@ -6,7 +6,7 @@ function onClickNaNnumber() {
     if (isNaN(decimalValue)) {
         document.getElementById("pResult").innerText = "The value is NOT a number (NaN)";
     } else {
-        let result = decimalValue.toFixed(fixNumber);
+        let result = decimalValue.toFixed(fixNumber); 
         document.getElementById("pResult").innerText = "Result: " + result;
     }
 }
