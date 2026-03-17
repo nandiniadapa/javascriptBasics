@@ -9,4 +9,4 @@ function onClickNaNnumber() {
         let result = decimalValue.toFixed(fixNumber); 
         document.getElementById("pResult").innerText = "Result: " + result;
     }
-}
+} 
