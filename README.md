@@ -15,3 +15,4 @@ style applied for profit loss
 created a precision linking with js
 Created a To fixed function linking with js
 created a To parsInt function linking with js
+created a ParsFloat function linking with js
