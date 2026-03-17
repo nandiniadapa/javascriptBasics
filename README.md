@@ -13,3 +13,4 @@ created a profitlossindicator
 style applied for profit loss indicator
 style applied for profit loss
 created a precision linking with js
+Created a To fixed function linking with js
