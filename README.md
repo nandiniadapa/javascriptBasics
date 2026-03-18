@@ -17,3 +17,4 @@ Created a To fixed function linking with js
 created a To parsInt function linking with js
 created a ParsFloat function linking with js
 created a even odd number functions
+updated README
