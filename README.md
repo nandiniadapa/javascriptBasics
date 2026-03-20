@@ -18,3 +18,4 @@ created a To parsInt function linking with js
 created a ParsFloat function linking with js
 created a even odd number functions
 updated README
+clearing the mistakes and updated ToNaN Function
