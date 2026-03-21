@@ -27,9 +27,7 @@
      else{
         document.getElementById("pResult").innerHTML="firstvalue"+secondValue; 
 
-     }
+     }  
 
-        
 
-     
     }
