@@ -1,0 +1,4 @@
+function onClickPowerChecker(){
+    debugger;
+    var 
+}
