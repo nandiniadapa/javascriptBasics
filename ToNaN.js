@@ -19,7 +19,15 @@
     var firstValueisNaN=isNaN(value1);
     var secondValueisNaN=isNaN(value2);
      console.log(firstValueisNaN);
-     console.log(secondValueisNaN);
-     
+     console.log(secondValueisNaN);  
+     if (!iffirstvalueNaN && !secondValueisNaN){
+        document.getElementById("pResult").innerHTML=parsInt(firstvalue)+parsInt(secondValue); 
 
- }
+     }
+     else{
+        document.getElementById("pResult").innerHTML="firstvalue"+secondValue; 
+
+     }
+
+        
+    }
