@@ -20,12 +20,12 @@
     var secondValueisNaN=isNaN(value2);
      console.log(firstValueisNaN);
      console.log(secondValueisNaN);  
-     if (!iffirstvalueNaN && !secondValueisNaN){
-        document.getElementById("pResult").innerHTML=parsInt(firstvalue)+parsInt(secondValue); 
+     if (!firstValueisNaN && !secondValueisNaN){
+        document.getElementById("pResult").innerHTML=parseInt(value1)+parseInt(value2); 
 
      }
      else{
-        document.getElementById("pResult").innerHTML="firstvalue"+secondValue; 
+        document.getElementById("pResult").innerHTML="fristvalue:"+firstValueisNaN+" ,   "+  "secondvalue:"+secondValueisNaN; 
 
      }  
 
