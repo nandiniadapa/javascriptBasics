@@ -1,8 +1,10 @@
 function onclickFinitecheck(){
     debugger;
-  varinputValue=document.getElementById("txtinput").value;
-  numericValue=parseFloat(inputValue);
-  divisionValue=1/inputValue;
-   console.log(divisionValue);
-   
+  var inputValue=document.getElementById("txtinput").value;
+  var numericValue=parsInt(inputValue);
+  divisionresult=1/(numericValue);
+   var result=IsFinite/(divisionresult);
+
+   document.getElementById("pResult").innerHTML="Is the Value Finite"+result;
+
 }
