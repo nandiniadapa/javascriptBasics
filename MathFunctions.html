@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Functions</title>
-    <script src="MathFunctions.js"></script>
 </head>
 <body>
+    <h1>Javascript Math</h1>
     <title> Math Functions</title>
-    <label for=""
+    <label for="txtInputNumber">Enter a number:</label>
+    <input type="number" id="txtInputNumber" placeholder="Enter a number">
+    <button id="btnSignCheck" onclick="onClickSignCheck"> Sign Check</button>
+    <p id="pResult"></p>
+
+
+<script src="MathFunctions.js">
+document.getElementById("pResult").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+</script>
 </body>
 </html>
