@@ -1,5 +1,6 @@
 function onClickGenerateRandom(){
     debugger;
-    var sizeNumber=document.getElementById("txtInput" ).value;
-    var InputValue=math.round(math.pow)
+    var sizeNumber= Number(document.getElementById("txtInput" ).value);
+    var randomNumber= Math.round(math.random()* Math.pow(10,sizeNumber));
+    document.getElementById("pResult").innerHTML="Random Number" + randomNumber
 }
