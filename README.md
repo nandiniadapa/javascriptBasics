@@ -20,3 +20,4 @@ created a even odd number functions
 updated README
 clearing the mistakes and updated ToNaN Function
 updated a Random function using Math
+updated ALL concepts form html
