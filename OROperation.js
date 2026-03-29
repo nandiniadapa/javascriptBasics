@@ -1,4 +1,4 @@
- function onClickOrOperation(){
+ function onClickOROperation(){
     debugger;
     var Number= parseFloat(document.getElementById("txtNumber").value)
     if((Number%7!=0) || (Number%11!=0)){
