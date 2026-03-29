@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Category Predictor</title>
     <script src="FamilyCategoryPredictor.js"></script>
-
 </head>
+
 <body>
     <h3>Family Category Predictor</h3>
-    <label><b>Ac:</b></label>
+    <form id="familyForm">
+        <label><b>AC:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txtAc" value="60000">
-         <label>No</label>
-        <input type="radio" id="txtAc" value="0"><br>
+        <input type="radio" name="ac" value="60000">
+        <label>No</label>
+        <input type="radio" name="ac" value="0"><br>
 
-           <label><b>TV:</b></label>
+        <label><b>TV:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txtTV" value="50000">
-         <label>No</label>
-        <input type="radio" id="txtTv" value="0"><br>
+        <input type="radio" name="tv" value="50000">
+        <label>No</label>
+        <input type="radio" name="tv" value="0"><br>
 
-           <label><b>Car:</b></label>
+        <label><b>Car:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txCar" value="500000">
-         <label>No</label>
-        <input type="radio" id="txtCar" value="0"><br>
+        <input type="radio" name="car" value="500000">
+        <label>No</label>
+        <input type="radio" name="car" value="0"><br>
 
-           <label><b>Washing mechine:</b></label>
+        <label><b>Washing Machine:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txtWashingMechine" value="40000">
-         <label>No</label>
-        <input type="radio" id="txtWashingMechine" value="0"><br>
+        <input type="radio" name="washingMachine" value="40000">
+        <label>No</label>
+        <input type="radio" name="washingMachine" value="0"><br>
 
-         <label><b>Bike:</b></label>
+        <label><b>Bike:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txtBike" value="100000">
-         <label>No</label>
-        <input type="radio" id="txBike" value="0"><br>
+        <input type="radio" name="bike" value="100000">
+        <label>No</label>
+        <input type="radio" name="bike" value="0"><br>
 
-         <label><b>Fridge:</b></label>
+        <label><b>Fridge:</b></label>
         <label>Yes</label>
-        <input type="radio" id="txtFridge" value="55000">
-         <label>No</label>
-        <input type="radio" id="txtFridge" value="0">
-        
-    </body>
+        <input type="radio" name="fridge" value="55000">
+        <label>No</label>
+        <input type="radio" name="fridge" value="0"><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="pResult"></p>
+
+    <script>
+        document.getElementById('familyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            let total = 0;
+            const radios = document.querySelectorAll('input[type="radio"]:checked');
+            
+            radios.forEach(radio => {
+                total += parseInt(radio.value);
+            });
+            
+            // let category = total >= 300000 ? 'Rich' : total >= 150000 ? 'Middle Class' : 'Poor';
+            // document.getElementById('pResult').textContent = `Total: ${total} - Category: ${category}`;
+        });
+    </script>
+</body>
+
 </html>
