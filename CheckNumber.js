@@ -13,6 +13,7 @@
   if(Number==0){
         document.getElementById("pResult").innerHTML="The number is zero.";
         console.log("The number is zero. ");
+        
   }
    if(Number!=0){
         document.getElementById("pResult").innerHTML="The number is not zero.";
