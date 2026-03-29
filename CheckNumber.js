@@ -1,4 +1,4 @@
- function onClickNumber(){
+ function onClickCheckNumber(){
     debugger;
     var number=parseInt(document.getElementById("txtNumber").value);
     if(number>0){
