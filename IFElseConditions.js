@@ -21,6 +21,6 @@ function onClickIFElseConditions(){
     }
     else{
         document.getElementById("pResult").innerHTML="The number is not divisible by 3 and 7.";
-        console.log("The number is not divisible by 3 and 7. ");
+        console.log("The number is not divisible by 3 and 7. "); 
      }
 }
