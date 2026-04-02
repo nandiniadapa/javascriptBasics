@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Category Predictor</title>
-    <script src="FamilyCategoryPredictor.js"></script>
+    <script src="FamilyCategoryPredictor.js" defer></script>
 </head>
 <body>
     <h3>Family Category Predictor </h3>
-    <form id="familyForm">
+    
         <label><b>AC:</b></label>
         <label>Yes</label>
         <input type="radio" name="ac" value="60000">
@@ -44,24 +44,10 @@
         <input type="radio" name="fridge" value="55000">
         <label>No</label>
         <input type="radio" name="fridge" value="0"><br>
-        <button type="submit">Submit</button>
-    </form>
+        <button  id="btnSubmit">Submit</button>
+  
     <p id="pResult"></p>
-
-    <script>
-        document.getElementById('familyForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            let total = 0;
-            const radios = document.querySelectorAll('input[type="radio"]:checked');
-            
-            radios.forEach(radio => {
-                total += parseInt(radio.value);
-            });
-            
-            // let category = total >= 300000 ? 'Rich' : total >= 150000 ? 'Middle Class' : 'Poor';
-            // document.getElementById('pResult').textContent = `Total: ${total} - Category: ${category}`;
-        });
-    </script>
-</body>
+    </body>
 </html>
+        
+       
