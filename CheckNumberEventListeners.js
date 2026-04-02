@@ -1,4 +1,4 @@
- document.getElementById("btnNumber").addEventListener("click", function(){
+ document.getElementById("btnNumber").addEventListener("click", function() {
     debugger;
     var number=parseInt(document.getElementById("txtNumber").value);
     if(number>0){
@@ -9,6 +9,7 @@
      if(Number<0){
         document.getElementById("pResult").innerHTML="The number is negative.";
         console.log("The number is negative. ");
+        }   
 
   if(Number==0){
         document.getElementById("pResult").innerHTML="The number is zero.";
@@ -31,4 +32,4 @@
         document.getElementById("pResult").innerHTML="The number is negative and odd.";
         console.log("The number is negative and odd. ");
  }
-} );    
+});
