@@ -32,3 +32,4 @@
         console.log("The number is negative and odd. ");
  }
  }
+ 
