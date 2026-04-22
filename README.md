@@ -25,3 +25,4 @@ modified all concepts
 updated readme
 readme topics covered
 updated readme
+completed basics
