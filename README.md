@@ -5,7 +5,7 @@ created a addition data type
 created a multiply data type
 updated data types....
 updated indexbasic html 
-updated data types
+updated data types in Java script 
 created profit & loss
 created arthimetic operations 
 created a temperature coverter
