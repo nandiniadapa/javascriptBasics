@@ -27,4 +27,4 @@ readme topics covered
 updated readme#
 completed Basic java
 #Javascript Basics
-modified topics 
+modified topicss
