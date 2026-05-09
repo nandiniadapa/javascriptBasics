@@ -22,7 +22,7 @@ clearing the mistakes and updated ToNaN Function
 updated a Random function using Math
 updated ALL concepts form html
 modified all concepts
-updated readme
+updated readme.
 readme topics covered
 updated readme#
 completed Basic java
