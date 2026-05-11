@@ -8,7 +8,7 @@ updated indexbasic html
 updated data types in Java script 
 created profit & loss
 created arthimetic operations.
-created a temperature coverter
+created a temperature coverters
 created a profitlossindicator
 style applied for profit loss indicator
 style applied for profit loss
