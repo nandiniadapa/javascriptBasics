@@ -1,4 +1,4 @@
-# javascriptsBasics
+# javascriptsBasic
 started a javascript basics
 created  a data types in java script
 created a addition data type
