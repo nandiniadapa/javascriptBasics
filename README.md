@@ -10,7 +10,7 @@ created profit & losss
 created arthimetic operations.
 created a temperature coverters
 created a profitlossindicator
-style applied for profit loss indicator
+style applied for profit loss indicators
 style applied for profit loss
 created a precision linking with js
 Created a To fixed function linking with js
