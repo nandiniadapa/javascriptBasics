@@ -1,7 +1,7 @@
 # javascriptsBasicss
 started a javascript basics
 created  a data types in java script
-created a addition data type
+created a addition data types
 created an multiply data type
 updated data types......
 updated indexbasic html 
