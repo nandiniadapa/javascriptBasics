@@ -23,7 +23,7 @@ updated a Random function using Math
 updated ALL concepts form html
 modified all concepts
 updated readme.
-readme topics covered
+readme topics covered for today
 updated readme#
 completed Basic java
 #Javascript Basics
