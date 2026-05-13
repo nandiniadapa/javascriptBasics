@@ -2,7 +2,7 @@
 started a javascript basics
 created  a data types in java script
 created a addition data types
-created an multiply data type
+created an multiply data types
 updated data types......
 updated indexbasic html 
 updated data types in Java script 
